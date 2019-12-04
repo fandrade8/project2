@@ -11,30 +11,45 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-Give examples
+NodeJs (LTS) - https://nodejs.org/en/
+Install Yarn using npm after installing NodeJs using command terminal
+use command - npm install yarn
 ```
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+Install ReactJS using npm/yarn
 
 ```
-Give the example
+npm init react-app my-app
 ```
 
-And repeat
+Move into my-app directory using command: cd my_app
+
+Install React Router
 
 ```
-until finished
+yarn add react-router-dom
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Install React Bootstrap and Bootstrap
+
+```
+Yarn add react-bootstrap bootstrap
+```
+
+Install Styled Components
+
+```
+yarn add styled-components
+```
+
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Run using command: yarn start
 
 ### Break down into end to end tests
 
