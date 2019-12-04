@@ -26,7 +26,11 @@ Install ReactJS using npm/yarn
 npm init react-app my-app
 ```
 
-Move into my-app directory using command: cd my_app
+Move into my-app directory
+
+```
+cd my-app
+```
 
 Install React Router
 
@@ -49,7 +53,13 @@ yarn add styled-components
 
 ## Running the tests
 
-Run using command: yarn start
+Run using command
+
+```
+yarn start
+or
+npm start
+```
 
 ### Break down into end to end tests
 
