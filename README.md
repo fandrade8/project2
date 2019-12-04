@@ -83,9 +83,18 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [React](https://reactjs.org/) 
+* [React Bootstrap](https://react-bootstrap.github.io/) 
+* [React Router](https://reacttraining.com/react-router/) 
+* [Styled Components](https://www.styled-components.com/) 
+* [Firebase](https://firebase.google.com/) 
+* [Postman](https://www.getpostman.com/) 
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) 
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) 
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) 
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) 
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) 
+
 
 ## Contributing
 
