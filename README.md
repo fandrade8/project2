@@ -51,10 +51,10 @@ yarn add styled-components
 ```
 
 
-Install Axios
+Use this tutorial to start firebase
 
 ```
-yarn add axios
+https://www.codementor.io/yurio/all-you-need-is-react-firebase-4v7g9p4kf
 ```
 
 ## Running the tests
@@ -94,7 +94,6 @@ Add additional notes about how to deploy this on a live system
 * [React Router](https://reacttraining.com/react-router/) 
 * [Styled Components](https://www.styled-components.com/) 
 * [Firebase](https://firebase.google.com/) 
-* [Postman](https://www.getpostman.com/) 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) 
