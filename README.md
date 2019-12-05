@@ -51,6 +51,12 @@ yarn add styled-components
 ```
 
 
+Install Axios
+
+```
+yarn add axios
+```
+
 ## Running the tests
 
 Run using command
