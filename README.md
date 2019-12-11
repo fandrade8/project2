@@ -52,11 +52,20 @@ yarn add styled-components
 ```
 
 
-Use this tutorial to start firebase
+Install JQuery
 
 ```
-https://www.codementor.io/yurio/all-you-need-is-react-firebase-4v7g9p4kf
+yarn add JQuery
 ```
+
+install firebase
+
+```
+yarn add firebase
+yarn add @firebase/firestore
+```
+
+
 
 ## Running the tests
 
