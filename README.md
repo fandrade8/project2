@@ -13,7 +13,7 @@ What things you need to install the software and how to install them
 ```
 NodeJs (LTS) - https://nodejs.org/en/
 Install Yarn using npm after installing NodeJs using command terminal
-use command - npm install yarn
+use command - npm install -g yarn
 ```
 
 ### Installing
