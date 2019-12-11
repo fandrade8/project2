@@ -1,6 +1,7 @@
 import React from 'react';
 import { Form, Col, Button } from 'react-bootstrap';
 import styled from 'styled-components';
+import fire from './components/Firebase';
 
 const Styles = styled.div`
 	h2 {
@@ -24,8 +25,7 @@ const Styles = styled.div`
 `;
 
 
-
-export function Register() {
+export const Register = () => {
 
 	const [validated, setValidated] = React.useState(false);
 
@@ -34,9 +34,15 @@ export function Register() {
 		if (form.checkValidity() === false) {
 			event.preventDefault();
 			event.stopPropagation();
-		}
+
+
+			var email = event.currentTarget.email;
+			var password = event.currentTarget.password;
+			fire.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
+			});
 
 		setValidated(true);
+		}
 	}
 	return(
 	<Styles>
@@ -45,28 +51,28 @@ export function Register() {
 
 			<Form.Group controlId="fname">
 				<Form.Label>First Name</Form.Label>
-				<Form.Control 
+				<Form.Control
 					placeholder="John"
 					required
-					type="text" 
+					type="text"
 					/>
 				<Form.Control.Feedback>Looks Good! </Form.Control.Feedback>
 			</Form.Group>
-			
+
 			<Form.Group controlId="lname">
 				<Form.Label>Last Name</Form.Label>
-				<Form.Control 
+				<Form.Control
 					placeholder="Smith"
 					required
-					type="text" 
+					type="text"
 				/>
 				<Form.Control.Feedback>Looks Good!</Form.Control.Feedback>
 			</Form.Group>
 
 			<Form.Group controlId="username">
 				<Form.Label>Username</Form.Label>
-				<Form.Control 
-					placeholder="Enter a Username" 
+				<Form.Control
+					placeholder="Enter a Username"
 					required
 					type="text"
 				/>
@@ -77,20 +83,20 @@ export function Register() {
 			<Form.Row>
 				<Form.Group as={Col} controlId="email">
 					<Form.Label>Email</Form.Label>
-					<Form.Control 
-						type="email" 
+					<Form.Control
+						type="email"
 						placeholder="JohnSmith@Gmail.com"
-						required 
+						required
 					/>
 					<Form.Control.Feedback>Looks Good!</Form.Control.Feedback>
 				</Form.Group>
 
 				<Form.Group as={Col} controlId="password">
 					<Form.Label>Password</Form.Label>
-					<Form.Control 
-						type="password" 
+					<Form.Control
+						type="password"
 						placeholder="password"
-						required 
+						required
 					/>
 					<Form.Control.Feedback>Looks Good!</Form.Control.Feedback>
 				</Form.Group>

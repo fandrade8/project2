@@ -23,30 +23,33 @@ const Styles = styled.div`
 	}
 `;
 
-export const Login = () => (
-	<Styles>
-		<Form id="forms">
-			<h2>Login</h2>
+export function Login() {
+
+	return (
+		<Styles>
+			<Form id="forms">
+				<h2>Login</h2>
 
 
-			<Form.Group as={Col} controlId="email">
-				<Form.Label>Email</Form.Label>
-				<Form.Control type="email" placeholder="Enter Email" />
-			</Form.Group>
+				<Form.Group as={Col} controlId="email">
+					<Form.Label>Email</Form.Label>
+					<Form.Control type="email" placeholder="Enter Email" />
+				</Form.Group>
 
-			<Form.Group as={Col} controlId="password">
-				<Form.Label>Password</Form.Label>
-				<Form.Control type="password" placeholder="Enter Password" />
-			</Form.Group>
+				<Form.Group as={Col} controlId="password">
+					<Form.Label>Password</Form.Label>
+					<Form.Control type="password" placeholder="Enter Password" />
+				</Form.Group>
 
-			<Form.Row>
-				<Col>
-					<Button variant="primary" type="Submit">Submit</Button>
-				</Col>
-				<Col>
-					<Button href="/register" variant="secondary" type="Submit">Sign-Up</Button>
-				</Col>
-			</Form.Row>
-		</Form>
-	</Styles>
-)
+				<Form.Row>
+					<Col>
+						<Button variant="primary" type="Submit">Submit</Button>
+					</Col>
+					<Col>
+						<Button href="/register" variant="secondary" type="Submit">Sign-Up</Button>
+					</Col>
+				</Form.Row>
+			</Form>
+		</Styles>
+	)
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Home } from './Home';
+import  Home  from './Home';
 import { About } from './About';
 import { Contact } from './Contact';
 import { Login } from './Login'
@@ -9,11 +9,14 @@ import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
 
+
+export const AuthContext = React.createContext(null);
+
 class App extends Component {
-  render() {
+  render () {
     return (
       <React.Fragment>
-        <NavigationBar />
+      <NavigationBar/>
         <Layout>
           <Router>
             <Switch>
@@ -27,7 +30,7 @@ class App extends Component {
           </Router>
         </Layout>
       </React.Fragment>
-    );
+    )
   }
 }
 
