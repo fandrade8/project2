@@ -1,6 +1,7 @@
-# Project Title
+# Cloudify
 
-One Paragraph of project description goes here
+Cloudify, if you want clouds we got it.
+It's like spotify but with clouds
 
 ## Getting Started
 
