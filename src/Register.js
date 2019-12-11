@@ -8,7 +8,6 @@ const Styles = styled.div`
 		text-align: center;
 		color: #BF0000
 	}
-
 	#forms {
 		max-width: 450px;
 		background: #FAFAFA;
@@ -18,7 +17,6 @@ const Styles = styled.div`
 		border-radius: 10px;
 		border: 6px solid #305A72;
 	}
-
 	.form-group {
 		color: #BF0000;
 	}
